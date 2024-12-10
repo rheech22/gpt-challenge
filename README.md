@@ -1,4 +1,4 @@
-## Tasks
+## Tasks 1
 
 - Create a Github Repository
 - Create a Python environment.
@@ -8,7 +8,7 @@
 - Make two chains and chain them together using LCEL.
 - Push the code to Github
 
-## Output
+## Output 1
 
 ```md
 **자바스크립트의 노래**
@@ -61,4 +61,22 @@ DOM을 만지며, 세상을 바꾸고,
 3. **마무리의 힘**: 마지막 연은 다소 일반적인 결론으로 끝나며, 독자에게 강한 인상을 남기기에는 부족한 느낌입니다. "미래의 웹을 만들어가리라, 영원히"라는 표현은 다소 진부하게 들릴 수 있으므로, 좀 더 독창적이고 강렬한 마무리로 시를 마감하는 것이 좋겠습니다.
 
 **결론적으로**, "자바스크립트의 노래"는 프로그래밍 언어에 대한 깊은 이해와 감정을 잘 전달하는 시입니다. 다만, 구조와 리듬, 상징의 명확성, 그리고 마무리의 힘을 보강한다면 더욱 뛰어난 작품이 될 수 있을 것입니다.
+```
+
+## Task 2
+
+- Make a chain that takes the name of a movie and replies with information about the movie such as the director, the main cast, the budget, the box office revenue, the genre of the movie and a small synopsis.
+- The LLM should always reply using the same format, to accomplish this you must give examples to the LLM of your desired output.
+- To provide examples use FewShotPromptTemplate or FewShotChatMessagePromptTemplate.
+
+## Output 2
+
+```
+Here is what I know:
+감독: 다그 리먼
+주요 출연진: 매트 데이먼, 프랑카 포텐테, 크리스 쿠퍼, 클라우디아 카딜라케
+예산: 6천만 달러
+흥행 수익: 1억 2700만 달러
+장르: 액션, 스릴러
+시놉시스: 한 남자가 아침에 해변에서 깨어나 기억을 잃은 채로 발견된다. 그는 자신의 정체성을 찾기 위해 노력하면서, 자신이 훈련된 암살자라는 사실과 그를 쫓는 여러 세력의 위협에 직면하게 된다. 그의 과거를 추적하는 과정에서 그는 자신이 누구인지, 그리고 왜 쫓기고 있는지를 밝혀내기 위해 고군분투한다. 이 과정에서 그는 자신의 정체성을 찾고, 생존을 위해 싸워야 한다.
 ```
